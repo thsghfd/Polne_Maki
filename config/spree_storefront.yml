@@ -1,0 +1,143 @@
+default:
+  navigation:
+    - title: Brands
+      subtitle: A
+      url: /t/women
+      items:
+        - :title: GHD
+          :url: /t/women/skirts
+        - :title: M.A.C
+          :url: /t/women/dresses
+        - :title: Head and Shoulders
+          :url: /t/women/shirts-and-blouses
+        - :title: Pantene
+          :url: /t/women/sweaters
+        - :title: Novo
+          :url: /t/women/tops-and-t-shirts
+        - :title: Creed
+          :url: /t/women/jackets-and-coats
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2019
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-first-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-first-category.jpg'
+    - title: Makeup
+      subtitle: Categories
+      url: /t/men
+      items:
+        - :title: Foundatin
+          :url: /t/men/shirts
+        - :title: Blush
+          :url: /t/men/t-shirts
+        - :title: Powder
+          :url: /t/men/sweaters
+        - :title: Primer
+          :url: /t/men/jackets-and-coats
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2019
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-second-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-second-category.jpg'
+    - title: Hair
+      subtitle: Categories
+      url: /t/sportswear
+      items:
+        - :title: Conditioner
+          :url: /t/sportswear/tops
+        - :title: Shampoo
+          :url: /t/sportswear/sweatshirts
+        - :title: Hair Gel
+          :url: /t/sportswear/pants
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2019
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Body
+      subtitle: Categories
+      url: /t/sportswear
+      items:
+        - :title: Cream
+          :url: /t/sportswear/tops
+        - :title: moisturiser
+          :url: /t/sportswear/sweatshirts
+        - :title: Tanning Spray
+          :url: /t/sportswear/pants
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2019
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Nails
+      subtitle: Categories
+      url: /t/sportswear
+      items:
+        - :title: Nail Care
+          :url: /t/sportswear/tops
+        - :title: Nail Polish
+          :url: /t/sportswear/sweatshirts
+        - :title: Nail Tints
+          :url: /t/sportswear/pants
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2019
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Eyes
+      subtitle: Categories
+      url: /t/sportswear
+      items:
+        - :title: Eye Liner
+          :url: /t/sportswear/tops
+        - :title: Eye Shadow
+          :url: /t/sportswear/sweatshirts
+        - :title: Mascara
+          :url: /t/sportswear/pants
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2019
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Lips
+      subtitle: Categories
+      url: /t/sportswear
+      items:
+        - :title: Lipstick
+          :url: /t/sportswear/tops
+        - :title: Lip Balm
+          :url: /t/sportswear/sweatshirts
+        - :title: Lip Gel
+          :url: /t/sportswear/pants
+      promo_banners:
+        - subtitle: Popular Items
+          title: Available Now
+          url: /t/new-collection/summer-2019
+          image: 'meganav/lipstick1.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/lipstick2.jpg'

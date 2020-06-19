@@ -29,4 +29,4 @@ Spree.dependencies do |dependencies|
 end
 
 
-Spree.user_class = "User"
+Spree.user_class = "Spree::LegacyUser"

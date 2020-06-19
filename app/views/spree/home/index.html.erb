@@ -67,7 +67,7 @@
     
     
     
-        <div class="col-3 d-flex flex-column">
+        <div class="col-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
         <%= link_to spree.nested_taxons_path('eyes') do %>
@@ -83,6 +83,28 @@
       </div>
 
     </div>
+    
+    
+    
+            <div class="col-6 d-flex flex-column">
+
+      <div class="homepage-taxon-box flex-grow-1">
+        <%= link_to spree.nested_taxons_path('eyes') do %>
+          <img class="w-100 lazyload"
+            data-src="<%= asset_path('homepage/big_category_banner_eyes.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/big_category_banner_eyes') %>"
+            alt="<%= Spree.t('homepage.eyes')%>" />
+
+          <div class="homepage-taxon-box-text">
+            <h3><%= Spree.t('homepage.eyes') %></h3>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+    
+    
+    
     
     
     

@@ -72,7 +72,7 @@ default:
         - :title: Kremy / Serum
           :url: /t/twarz/kremy-serum
         - :title: Kremy Pod Oczy
-          :url: /t/twarz/kremy-pod-serum
+          :url: /t/twarz/kremy-pod-oczy
         - :title: DEMAKIJAŻ
           :url: /t/twarz/Demakija
         - :title: MASKI
@@ -80,7 +80,7 @@ default:
         - :title: PEELING
           :url: /t/twarz/peeling
         - :title: INNE
-          :url: /t/twarz/peeling
+          :url: /t/twarz/inne
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -198,11 +198,11 @@ default:
         - subtitle: Popular Items
           title: Available Now
           url: /t/new-collection/summer-2019
-          image: 'meganav/lipstick1.jpg'
+          image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
-          image: 'meganav/lipstick2.jpg'
+          image: 'meganav/promo_banner_right-third-category.jpg'
     - title: DZIECI
       subtitle: Kategorie
       url: /t/dzieci
@@ -215,11 +215,11 @@ default:
         - subtitle: Popular Items
           title: Available Now
           url: /t/new-collection/summer-2019
-          image: 'meganav/lipstick1.jpg'
+          image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
-          image: 'meganav/lipstick2.jpg'
+          image: 'meganav/promo_banner_right-third-category.jpg'
     - title: DOM
       subtitle: Kategorie
       url: /t/dom

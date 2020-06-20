@@ -21,27 +21,27 @@
     <div class="col-6">
 
       <div class="homepage-taxon-box mb-3">
-        <%= link_to spree.nested_taxons_path('nails') do %>
+        <%= link_to spree.nested_taxons_path('twarz') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
-            alt="<%= Spree.t('homepage.nails')%>" />
+            alt="<%= Spree.t('homepage.twarz')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.nails') %></h3>
+            <h3><%= Spree.t('homepage.twarz') %></h3>
           </div>
         <% end %>
       </div>
 
       <div class="homepage-taxon-box">
-        <%= link_to spree.nested_taxons_path('lips') do %>
+        <%= link_to spree.nested_taxons_path('cialo') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
-            alt="<%= Spree.t('homepage.lips')%>" />
+            alt="<%= Spree.t('homepage.cialo')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.lips') %></h3>
+            <h3><%= Spree.t('homepage.CIAŁO') %></h3>
           </div>
         <% end %>
       </div>
@@ -51,66 +51,133 @@
     <div class="col-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('hair') do %>
+        <%= link_to spree.nested_taxons_path('wlosy') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
             data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
-            alt="<%= Spree.t('homepage.hair')%>" />
+            alt="<%= Spree.t('homepage.wlosy')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.hair') %></h3>
+            <h3><%= Spree.t('homepage.WŁOSY') %></h3>
           </div>
         <% end %>
       </div>
 
     </div>
     
+    &nbsp;
     
-    
-        <div class="col-6 d-flex flex-column">
+        <div class="row-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('eyes') do %>
+        <%= link_to spree.nested_taxons_path('dzieci') do %>
           <img class="w-100 lazyload"
-            data-src="<%= asset_path('homepage/big_category_banner_eyes.jpg') %>"
-            data-srcset="<%= image_source_set('homepage/big_category_banner_eyes') %>"
-            alt="<%= Spree.t('homepage.eyes')%>" />
+            data-src="<%= asset_path('homepage/big_category_banner_bottom.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/big_category_banner_bottom') %>"
+            alt="<%= Spree.t('homepage.dzieci')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.eyes') %></h3>
+            <h3><%= Spree.t('homepage.dzieci') %></h3>
           </div>
         <% end %>
       </div>
 
     </div>
-    
-    
-    
-            <div class="col-6 d-flex flex-column">
-
-      <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('eyes') do %>
-          <img class="w-100 lazyload"
-            data-src="<%= asset_path('homepage/big_category_banner_eyes.jpg') %>"
-            data-srcset="<%= image_source_set('homepage/big_category_banner_eyes') %>"
-            alt="<%= Spree.t('homepage.eyes')%>" />
-
-          <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.eyes') %></h3>
-          </div>
-        <% end %>
-      </div>
-
-    </div>
-    
-    
-    
-    
-    
     
     
   </div>
 </div>
+
+
+&nbsp;
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+
+      <div class="homepage-taxon-box mb-3">
+        <%= link_to spree.nested_taxons_path('paznokcie') do %>
+          <img class="w-100 lazyload"
+            data-src="<%= asset_path('homepage/category_banner_upper2.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/category_banner_upper2') %>"
+            alt="<%= Spree.t('homepage.paznokcie')%>" />
+
+          <div class="homepage-taxon-box-text">
+            <h3><%= Spree.t('homepage.PAZNOKCIE') %></h3>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="homepage-taxon-box">
+        <%= link_to spree.nested_taxons_path('zapachy') do %>
+          <img class="w-100 lazyload"
+            data-src="<%= asset_path('homepage/category_banner_lower2.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/category_banner_lower2') %>"
+            alt="<%= Spree.t('homepage.zapachy')%>" />
+
+          <div class="homepage-taxon-box-text">
+            <h3><%= Spree.t('homepage.ZAPACHY') %></h3>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+
+    <div class="col-6 d-flex flex-column">
+
+      <div class="homepage-taxon-box flex-grow-1">
+        <%= link_to spree.nested_taxons_path('makijaz') do %>
+          <img class="w-100 lazyload"
+            data-src="<%= asset_path('homepage/big_category_banner2.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/big_category_banner2') %>"
+            alt="<%= Spree.t('homepage.makijaz')%>" />
+
+          <div class="homepage-taxon-box-text">
+            <h3><%= Spree.t('homepage.MAKIJAŻ') %></h3>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+    
+    &nbsp;
+    
+        <div class="row-6 d-flex flex-column">
+
+      <div class="homepage-taxon-box flex-grow-1">
+        <%= link_to spree.nested_taxons_path('dom') do %>
+          <img class="w-100 lazyload"
+            data-src="<%= asset_path('homepage/big_category_banner_bottom2.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/big_category_banner_bottom2') %>"
+            alt="<%= Spree.t('homepage.dom')%>" />
+
+          <div class="homepage-taxon-box-text">
+            <h3><%= Spree.t('homepage.dom') %></h3>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 <div data-product-carousel data-product-carousel-taxon-id='bestsellers' class="my-3"></div>
 

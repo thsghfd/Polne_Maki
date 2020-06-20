@@ -1,3 +1,4 @@
+
 <% cache spree_nav_cache_key('footer') do %>
   <footer id="footer" class="pt-2 mx-auto border-top footer-spree" data-turbolinks-permanent>
     <div class="container">
@@ -43,10 +44,11 @@
           </div>
         </div>
       </div>
-      <div class="row d-none d-xl-flex border-top py-5 text-uppercase footer-spree-menu-links">
+       <!--
+       <div class="row d-none d-xl-flex border-top py-5 text-uppercase footer-spree-menu-links">
         <% if spree_navigation_data.any? %>
-          <% spree_navigation_data.first(3).each do |root| %>
-            <div class="col-3">
+          <% spree_navigation_data.first(9).each do |root| %>
+            <div class="col-2">
               <div class="footer-spree-label">
                 <%= link_to root[:title], root[:url] %>
               </div>
@@ -58,8 +60,9 @@
             </div>
           <% end %>
         <% end %>
+        -->
         <% if spree.respond_to?(:account_path) %>
-          <div class="col-3">
+          <div class="col-2">
             <div class="footer-spree-label">
               <%= Spree.t('nav_bar.my_account') %>
             </div>

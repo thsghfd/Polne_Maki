@@ -1,21 +1,61 @@
 default:
   navigation:
-    - title: Brands
-      subtitle: A
-      url: /t/women
+    - title: Marki
+      subtitle: Kategorie
+      url: /t/marki
       items:
-        - :title: GHD
-          :url: /t/women/skirts
-        - :title: M.A.C
-          :url: /t/women/dresses
-        - :title: Head and Shoulders
-          :url: /t/women/shirts-and-blouses
-        - :title: Pantene
-          :url: /t/women/sweaters
-        - :title: Novo
-          :url: /t/women/tops-and-t-shirts
-        - :title: Creed
-          :url: /t/women/jackets-and-coats
+        - :title: Brand A
+          :url: /t/marki
+        - :title: Brand B
+          :url: /t/marki
+        - :title: Brand C
+          :url: /t/marki
+        - :title: Brand D
+          :url: /t/marki
+        - :title: Brand E
+          :url: /t/marki
+        - :title: Brand F
+          :url: /t/marki
+        - :title: Brand G
+          :url: /t/marki
+        - :title: Brand H
+          :url: /t/marki
+        - :title: Brand I
+          :url: /t/marki
+        - :title: Brand J
+          :url: /t/marki
+        - :title: Brand K
+          :url: /t/marki
+        - :title: Brand L
+          :url: /t/marki
+        - :title: Brand M
+          :url: /t/marki
+        - :title: Brand N
+          :url: /t/marki
+        - :title: Brand O
+          :url: /t/marki
+        - :title: Brand P
+          :url: /t/marki
+        - :title: Brand Q
+          :url: /t/marki
+        - :title: Brand R
+          :url: /t/marki
+        - :title: Brand S
+          :url: /t/marki
+        - :title: Brand T
+          :url: /t/marki
+        - :title: Brand U
+          :url: /t/marki
+        - :title: Brand V
+          :url: /t/marki
+        - :title: Brand W
+          :url: /t/marki
+        - :title: Brand X
+          :url: /t/marki
+        - :title: Brand Y
+          :url: /t/marki
+        - :title: Brand Z
+          :url: /t/marki
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -25,18 +65,22 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Makeup
-      subtitle: Categories
-      url: /t/men
+    - title: Twarz
+      subtitle: Kategorie
+      url: /t/twarz
       items:
-        - :title: Foundatin
-          :url: /t/men/shirts
-        - :title: Blush
-          :url: /t/men/t-shirts
-        - :title: Powder
-          :url: /t/men/sweaters
-        - :title: Primer
-          :url: /t/men/jackets-and-coats
+        - :title: Kremy / Serum
+          :url: /t/twarz/kremy-serum
+        - :title: Kremy Pod Oczy
+          :url: /t/twarz/kremy-pod-serum
+        - :title: DEMAKIJAŻ
+          :url: /t/twarz/Demakija
+        - :title: MASKI
+          :url: /t/twarz/maski
+        - :title: PEELING
+          :url: /t/twarz/peeling
+        - :title: INNE
+          :url: /t/twarz/peeling
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -46,16 +90,22 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Hair
-      subtitle: Categories
-      url: /t/sportswear
+    - title: CIAŁO
+      subtitle: Kategorie
+      url: /t/cialo
       items:
-        - :title: Conditioner
-          :url: /t/sportswear/tops
-        - :title: Shampoo
-          :url: /t/sportswear/sweatshirts
-        - :title: Hair Gel
-          :url: /t/sportswear/pants
+        - :title: BALSAMY
+          :url: /t/cialo/balsamy
+        - :title: KĄPIEL / PRYSZNIC
+          :url: /t/cialo/kapiel-prtsznic
+        - :title: DO RĄK I STÓP
+          :url: /t/cialo/do-rak-i-stop
+        - :title: HIGIENA INTYMNA
+          :url: /t/cialo/higiena-intymna
+        - :title: DEPILACJA
+          :url: /t/cialo/depilacja      
+        - :title: OPALANIE
+          :url: /t/cialo/opalanie
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -65,16 +115,24 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: Body
-      subtitle: Categories
-      url: /t/sportswear
+    - title: WŁOSY
+      subtitle: Kategorie
+      url: /t/wlosy
       items:
-        - :title: Cream
-          :url: /t/sportswear/tops
-        - :title: moisturiser
-          :url: /t/sportswear/sweatshirts
-        - :title: Tanning Spray
-          :url: /t/sportswear/pants
+        - :title: SZAMPONY
+          :url: /t/wlosy/szampony
+        - :title: ODŻYWKI I MASKI
+          :url: /t/wlosy/odzywki-i-maski
+        - :title: OLEJKI
+          :url: /t/wlosy/olejki
+        - :title: KOLORYZACJA
+          :url: /t/wlosy/koloryzacja
+        - :title: STYLIZACJA
+          :url: /t/wlosy/stylizacja
+        - :title: DLA MĘŻCZYZN
+          :url: /t/wlosy/dla-mezczyzn
+        - :title: AKCESORIA
+          :url: /t/wlosy/akcesoria
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -84,16 +142,18 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: Nails
-      subtitle: Categories
-      url: /t/sportswear
+    - title: PAZNOKCIE
+      subtitle: Kategorie
+      url: /t/paznokcie
       items:
-        - :title: Nail Care
-          :url: /t/sportswear/tops
-        - :title: Nail Polish
-          :url: /t/sportswear/sweatshirts
-        - :title: Nail Tints
-          :url: /t/sportswear/pants
+        - :title: LAKIERY
+          :url: /t/paznokcie/lakiery
+        - :title: HYBRYDY
+          :url: /t/paznokcie/hybrydy
+        - :title: ODŻYWKI
+          :url: /t/paznokcie/odzywki
+        - :title: AKCESORIA
+          :url: /t/paznokcie/akcesoria
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -103,16 +163,18 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: Eyes
-      subtitle: Categories
-      url: /t/sportswear
+    - title: MAKIJAŻ
+      subtitle: Kategorie
+      url: /t/makijaz
       items:
-        - :title: Eye Liner
-          :url: /t/sportswear/tops
-        - :title: Eye Shadow
-          :url: /t/sportswear/sweatshirts
-        - :title: Mascara
-          :url: /t/sportswear/pants
+        - :title: USTA
+          :url: /t/makijaz/usta
+        - :title: OCZY
+          :url: /t/makijaz/oczy
+        - :title: TWARZ
+          :url: /t/makijaz/twarz
+        - :title: AKCESORIA
+          :url: /t/makijaz/akcesoria
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -122,16 +184,50 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: Lips
-      subtitle: Categories
-      url: /t/sportswear
+    - title: ZAPACHY
+      subtitle: Kategorie
+      url: /t/zapachy
       items:
-        - :title: Lipstick
-          :url: /t/sportswear/tops
-        - :title: Lip Balm
-          :url: /t/sportswear/sweatshirts
-        - :title: Lip Gel
-          :url: /t/sportswear/pants
+        - :title: PERFUMY
+          :url: /t/zapachy/perfumy
+        - :title: ANTYPERSPIRANTY
+          :url: /t/zapachy/antyperspiranty
+        - :title: MGIEŁKI
+          :url: /t/zapachy/mgielki
+      promo_banners:
+        - subtitle: Popular Items
+          title: Available Now
+          url: /t/new-collection/summer-2019
+          image: 'meganav/lipstick1.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/lipstick2.jpg'
+    - title: DZIECI
+      subtitle: Kategorie
+      url: /t/dzieci
+      items:
+        - :title: PIELĘGNACJA
+          :url: /t/dzieci/pielegnacja
+        - :title: OPALANIE
+          :url: /t/dzieci/opalanie
+      promo_banners:
+        - subtitle: Popular Items
+          title: Available Now
+          url: /t/new-collection/summer-2019
+          image: 'meganav/lipstick1.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/lipstick2.jpg'
+    - title: DOM
+      subtitle: Kategorie
+      url: /t/dom
+      items:
+        - :title: ŚRODKI CZYSTOŚCI
+          :url: /t/dom/srodki-czystosci
+        - :title: AKCESORIA
+          :url: /t/dom/akcesoria
       promo_banners:
         - subtitle: Popular Items
           title: Available Now

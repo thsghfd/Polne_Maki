@@ -232,8 +232,8 @@ default:
         - subtitle: Popular Items
           title: Available Now
           url: /t/new-collection/summer-2019
-          image: 'meganav/lipstick1.jpg'
+          image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
-          image: 'meganav/lipstick2.jpg'
+          image: 'meganav/promo_banner_right-third-category.jpg'

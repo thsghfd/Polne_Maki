@@ -42,20 +42,6 @@ default:
           :url: /t/marki
         - :title: Brand S
           :url: /t/marki
-        - :title: Brand T
-          :url: /t/marki
-        - :title: Brand U
-          :url: /t/marki
-        - :title: Brand V
-          :url: /t/marki
-        - :title: Brand W
-          :url: /t/marki
-        - :title: Brand X
-          :url: /t/marki
-        - :title: Brand Y
-          :url: /t/marki
-        - :title: Brand Z
-          :url: /t/marki
       promo_banners:
         - subtitle: New collection
           title: Summer 2019

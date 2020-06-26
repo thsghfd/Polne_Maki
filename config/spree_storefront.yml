@@ -26,30 +26,14 @@ default:
           :url: /t/marki
         - :title: Brand K
           :url: /t/marki
-        - :title: Brand L
-          :url: /t/marki
-        - :title: Brand M
-          :url: /t/marki
-        - :title: Brand N
-          :url: /t/marki
-        - :title: Brand O
-          :url: /t/marki
-        - :title: Brand P
-          :url: /t/marki
-        - :title: Brand Q
-          :url: /t/marki
-        - :title: Brand R
-          :url: /t/marki
-        - :title: Brand S
-          :url: /t/marki
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Marki
+          url: /t/marki
           image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
+        - subtitle: Bestseller
+          title: tylko 49 zł
+          url: /t/marki/test-brand
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Twarz
       subtitle: Kategorie
@@ -60,7 +44,7 @@ default:
         - :title: Kremy Pod Oczy
           :url: /t/twarz/kremy-pod-oczy
         - :title: DEMAKIJAŻ
-          :url: /t/twarz/Demakija
+          :url: /t/twarz/Demakijaz
         - :title: MASKI
           :url: /t/twarz/maski
         - :title: PEELING
@@ -68,14 +52,14 @@ default:
         - :title: INNE
           :url: /t/twarz/inne
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Do Twarzy
+          url: /t/twarz
           image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-second-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 58 zł
+          url: /t/twarz/test-twarz
+          image: 'meganav/test-twarz.jpg'
     - title: CIAŁO
       subtitle: Kategorie
       url: /t/cialo
@@ -93,14 +77,14 @@ default:
         - :title: OPALANIE
           :url: /t/cialo/opalanie
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Do Ciała
+          url: /t/cialo
           image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 100 zł
+          url: /t/cialo/test-cialo
+          image: 'meganav/test-cialo.jpg'
     - title: WŁOSY
       subtitle: Kategorie
       url: /t/wlosy
@@ -120,14 +104,14 @@ default:
         - :title: AKCESORIA
           :url: /t/wlosy/akcesoria
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Do Włosów
+          url: /t/wlosy
+          image: 'meganav/promo_banner_left-fourth-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 23 zł
+          url: /t/wlosy/test-wlosy
+          image: 'meganav/test-wlosy.jpg'
     - title: PAZNOKCIE
       subtitle: Kategorie
       url: /t/paznokcie
@@ -141,14 +125,14 @@ default:
         - :title: AKCESORIA
           :url: /t/paznokcie/akcesoria
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Do Paznokci
+          url: /t/paznokcie
+          image: 'meganav/promo_banner_left-fifth-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 11 zł
+          url: /t/paznokcie/test-paznokcie
+          image: 'meganav/test-paznokcie.jpg'
     - title: MAKIJAŻ
       subtitle: Kategorie
       url: /t/makijaz
@@ -162,14 +146,14 @@ default:
         - :title: AKCESORIA
           :url: /t/makijaz/akcesoria
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Do Makijażu
+          url: /t/makijaz
+          image: 'meganav/promo_banner_left-sixth-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 35 zł
+          url: /t/makijaz/test-makijaz
+          image: 'meganav/test-makijaz.jpg'
     - title: ZAPACHY
       subtitle: Kategorie
       url: /t/zapachy
@@ -180,15 +164,15 @@ default:
           :url: /t/zapachy/antyperspiranty
         - :title: MGIEŁKI
           :url: /t/zapachy/mgielki
-      promo_banners:
-        - subtitle: Popular Items
-          title: Available Now
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+      promo_banners: 
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Zapachowych
+          url: /t/zapachy
+          image: 'meganav/promo_banner_left-seventh-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 88 zł
+          url: /t/zapachy/test-zapachy
+          image: 'meganav/test-zapachy.jpg'
     - title: DZIECI
       subtitle: Kategorie
       url: /t/dzieci
@@ -198,14 +182,14 @@ default:
         - :title: OPALANIE
           :url: /t/dzieci/opalanie
       promo_banners:
-        - subtitle: Popular Items
-          title: Available Now
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Dla Dzieci
+          url: /t/dzieci
+          image: 'meganav/promo_banner_left-eighth-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 7 zł
+          url: /t/dzieci/test-dzieci
+          image: 'meganav/test-dzieci.jpg'
     - title: DOM
       subtitle: Kategorie
       url: /t/dom
@@ -215,11 +199,11 @@ default:
         - :title: AKCESORIA
           :url: /t/dom/akcesoria
       promo_banners:
-        - subtitle: Popular Items
-          title: Available Now
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Wielkie Otwarcie
+          title: Przeglądaj Według Produktów Domowych
+          url: /t/dom
+          image: 'meganav/promo_banner_left-ninth-category.jpg'
+        - subtitle: Bestseller
+          title: tylko 10 zł
+          url: /t/dom/test-dom
+          image: 'meganav/test-dom.jpg'

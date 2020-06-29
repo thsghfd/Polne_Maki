@@ -34,7 +34,7 @@
           <div class="d-flex flex-column align-items-center align-items-xl-start pb-3 flex-grow-2 footer-spree-contact-note">
             <div>
               <%= current_store.name %>,
-              123 Brisbane Street <br/>
+              12 Brisbane Street <br/>
               Queensland, Warsaw 45-086, Poland
             </div>
             <div>Call us now: 123-673-5690</div>
@@ -64,10 +64,10 @@
         <% if spree.respond_to?(:account_path) %>
           <div class="col-2">
             <div class="footer-spree-label">
-              <%= Spree.t('nav_bar.my_account') %>
+              <%= Spree.t('nav_bar.Moje_konto') %>
             </div>
             <div class="pt-2">
-              <%= link_to Spree.t('nav_bar.my_orders'), spree.account_path(anchor: "account-my-orders") %>
+              <%= link_to Spree.t('nav_bar.Moje_zamówienia'), spree.account_path(anchor: "account-my-orders") %>
             </div>
           </div>
         <% end %>

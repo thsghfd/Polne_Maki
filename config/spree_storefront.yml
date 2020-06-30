@@ -59,7 +59,7 @@ default:
         - subtitle: Bestseller
           title: tylko 58 zł
           url: /t/twarz/test-twarz
-          image: 'meganav/test-twarz.jpg'
+          image: 'meganav/promo_banner_right-second-category.jpg'
     - title: CIAŁO
       subtitle: Kategorie
       url: /t/cialo
@@ -84,7 +84,7 @@ default:
         - subtitle: Bestseller
           title: tylko 100 zł
           url: /t/cialo/test-cialo
-          image: 'meganav/test-cialo.jpg'
+          image: 'meganav/promo_banner_right-third-category.jpg'
     - title: WŁOSY
       subtitle: Kategorie
       url: /t/wlosy
@@ -111,7 +111,7 @@ default:
         - subtitle: Bestseller
           title: tylko 23 zł
           url: /t/wlosy/test-wlosy
-          image: 'meganav/test-wlosy.jpg'
+          image: 'meganav/promo_banner_right-fourth-category.jpg'
     - title: PAZNOKCIE
       subtitle: Kategorie
       url: /t/paznokcie
@@ -132,7 +132,7 @@ default:
         - subtitle: Bestseller
           title: tylko 11 zł
           url: /t/paznokcie/test-paznokcie
-          image: 'meganav/test-paznokcie.jpg'
+          image: 'meganav/promo_banner_right-fifth-category.jpg'
     - title: MAKIJAŻ
       subtitle: Kategorie
       url: /t/makijaz
@@ -153,7 +153,7 @@ default:
         - subtitle: Bestseller
           title: tylko 35 zł
           url: /t/makijaz/test-makijaz
-          image: 'meganav/test-makijaz.jpg'
+          image: 'meganav/promo_banner_right-sixth-category.jpg'
     - title: ZAPACHY
       subtitle: Kategorie
       url: /t/zapachy
@@ -172,7 +172,7 @@ default:
         - subtitle: Bestseller
           title: tylko 88 zł
           url: /t/zapachy/test-zapachy
-          image: 'meganav/test-zapachy.jpg'
+          image: 'meganav/promo_banner_right-seventh-category.jpg'
     - title: DZIECI
       subtitle: Kategorie
       url: /t/dzieci
@@ -189,7 +189,7 @@ default:
         - subtitle: Bestseller
           title: tylko 7 zł
           url: /t/dzieci/test-dzieci
-          image: 'meganav/test-dzieci.jpg'
+          image: 'meganav/promo_banner_right-eighth-category.jpg'
     - title: DOM
       subtitle: Kategorie
       url: /t/dom
@@ -206,4 +206,4 @@ default:
         - subtitle: Bestseller
           title: tylko 10 zł
           url: /t/dom/test-dom
-          image: 'meganav/test-dom.jpg'
+          image: 'meganav/promo_banner_right-ninth-category.jpg'

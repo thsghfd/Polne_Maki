@@ -1369,3 +1369,37 @@ pl:
     zones: Strefy
     contact_us: Skontaktuj się z nami
     follow_us: Podążaj za nami
+    log_in_to_continue: zaloguj się, aby kontynuować
+    log_in: Zaloguj się
+    sign_up: Zapisz się
+  
+  
+  
+  
+    homepage:
+      kupuj_teraz: Kupuj Teraz
+      wielkie_otwarcie: Wielkie Otwarcie
+      twarz: Twarz
+      wlosy: WŁOSY
+      cialo: CIAŁO
+      paznokcie: PAZNOKCIE
+      makijaz: MAKIJAŻ
+      zapachy: ZAPACHY
+      dzieci: DZIECI
+      dom: DOM
+      kosmetyki_naturalnep: Kosmetyki Naturalnep
+      kochać_ziemię: Kochać Ziemię
+      najlepiej_sprzedające_się_przedmioty_naturalne: Najlepiej Sprzedające Się Przedmioty Naturalne
+      kliknij_tutaj: Kliknij Tutaj
+    
+    nav_bar:
+      Moje_zamówienia: Moje Zamówienia
+      Moje_konto: Moje Konto
+    
+
+    plp:
+      sort_by: Sortuj według
+      newest_first: Nowości
+      price_high_to_low: Cena od najwyższej
+      price_low_to_high: Cena od najniższej
+      default: Domyślnie

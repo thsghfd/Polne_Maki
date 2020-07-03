@@ -204,6 +204,6 @@ default:
           url: /t/dom
           image: 'meganav/promo_banner_left-ninth-category.jpg'
         - subtitle: Bestseller
-          title: tylko 10 zł
+          title: tylko 12 zł
           url: /t/dom/test-dom
           image: 'meganav/promo_banner_right-ninth-category.jpg'

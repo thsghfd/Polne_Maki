@@ -1,6 +1,8 @@
 Rails.application.configure do
   config.hosts << "06f30c0b12c3483b958d4a4a2dd4d2ae.vfs.cloud9.us-east-2.amazonaws.com"
   config.hosts << /application\.local/
+  config.hosts << "polnymak.pl"
+  config.hosts << "www.olnymak.pl"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

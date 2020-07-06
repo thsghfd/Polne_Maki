@@ -14,7 +14,7 @@ development:
   database: db/development.sqlite3
   host: polnymak.pl
   port: 22
-  username: aofish
+  username: oafish
   password: sixth99
 
 # Warning: The database defined as "test" will be erased and
@@ -25,7 +25,7 @@ test:
   database: db/test.sqlite3
   host: polnymak.pl
   port: 22
-  username: aofish
+  username: oafish
   password: sixth99
 
 production:

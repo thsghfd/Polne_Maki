@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/spree-contrib/spree_i18n.git
-  revision: d3f518c591e1b3b73e7ef07e5522fab75e75492d
+  revision: bbe63eb57aff712814194a491cbc89b4d514bbc7
   specs:
     spree_i18n (4.0.0)
       deface (~> 1.0)
@@ -69,7 +69,7 @@ GEM
     activejob (6.0.3.2)
       activesupport (= 6.0.3.2)
       globalid (>= 0.3.6)
-    activemerchant (1.108.0)
+    activemerchant (1.109.0)
       activesupport (>= 4.2)
       builder (>= 2.1.2, < 4.0.0)
       i18n (>= 0.6.9)
@@ -144,6 +144,7 @@ GEM
     doorkeeper (5.4.0)
       railties (>= 5)
     erubi (1.9.0)
+    etc (1.1.0)
     execjs (2.7.0)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
@@ -164,7 +165,7 @@ GEM
     htmlentities (4.3.4)
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
-    i18n_data (0.10.0)
+    i18n_data (0.11.0)
     image_processing (1.11.0)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
@@ -212,7 +213,7 @@ GEM
     minitest (5.14.1)
     monetize (1.9.4)
       money (~> 6.12)
-    money (6.13.7)
+    money (6.13.8)
       i18n (>= 0.6.4, <= 2)
     msgpack (1.3.3)
     nio4r (2.5.2)
@@ -221,6 +222,10 @@ GEM
     orm_adapter (0.5.0)
     paranoia (2.4.2)
       activerecord (>= 4.0, < 6.1)
+    passenger (6.0.5)
+      etc
+      rack
+      rake (>= 0.8.1)
     pg (1.2.3)
     polyamorous (2.3.2)
       activerecord (>= 5.2.1)
@@ -442,6 +447,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  passenger (>= 5.3.2)
   pg (~> 1.2, >= 1.2.3)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.1)

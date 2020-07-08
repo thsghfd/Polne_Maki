@@ -53,6 +53,7 @@ group :development do
   # Use sqlite3 as the database for Active Record
 
   gem 'pg', '~> 1.2', '>= 1.2.3'
+  #
 end
 
 group :test do

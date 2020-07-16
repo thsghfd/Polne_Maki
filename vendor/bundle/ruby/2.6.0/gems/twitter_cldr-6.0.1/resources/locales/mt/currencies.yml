@@ -1,0 +1,335 @@
+--- 
+:mt: 
+  :currencies: 
+    :AED: 
+      :symbol: AED
+    :AFN: 
+      :symbol: AFN
+    :ALL: 
+      :symbol: ALL
+    :AMD: 
+      :symbol: AMD
+    :ANG: 
+      :symbol: ANG
+    :AOA: 
+      :symbol: AOA
+    :ARS: 
+      :symbol: ARS
+    :AUD: 
+      :symbol: A$
+    :AWG: 
+      :symbol: AWG
+    :AZN: 
+      :symbol: AZN
+    :BAM: 
+      :symbol: BAM
+    :BBD: 
+      :symbol: BBD
+    :BDT: 
+      :symbol: BDT
+    :BGN: 
+      :symbol: BGN
+    :BHD: 
+      :symbol: BHD
+    :BIF: 
+      :symbol: BIF
+    :BMD: 
+      :symbol: BMD
+    :BND: 
+      :symbol: BND
+    :BOB: 
+      :symbol: BOB
+    :BRL: 
+      :symbol: R$
+    :BSD: 
+      :symbol: BSD
+    :BTN: 
+      :symbol: BTN
+    :BWP: 
+      :symbol: BWP
+    :BYN: 
+      :symbol: BYN
+    :BYR: 
+      :symbol: BYR
+    :BZD: 
+      :symbol: BZD
+    :CAD: 
+      :symbol: CA$
+    :CDF: 
+      :symbol: CDF
+    :CHF: 
+      :symbol: CHF
+    :CLP: 
+      :symbol: CLP
+    :CNY: 
+      :symbol: CN¥
+    :COP: 
+      :symbol: COP
+    :CRC: 
+      :symbol: CRC
+    :CUC: 
+      :symbol: CUC
+    :CUP: 
+      :symbol: CUP
+    :CVE: 
+      :symbol: CVE
+    :CZK: 
+      :symbol: CZK
+    :DJF: 
+      :symbol: DJF
+    :DKK: 
+      :symbol: kr
+    :DOP: 
+      :symbol: DOP
+    :DZD: 
+      :symbol: DZD
+    :EGP: 
+      :symbol: EGP
+    :ERN: 
+      :symbol: ERN
+    :ESP: 
+      :symbol: ₧
+    :ETB: 
+      :symbol: ETB
+    :EUR: 
+      :few: ewro
+      :many: ewro
+      :one: ewro
+      :other: ewro
+      :symbol: €
+    :FJD: 
+      :symbol: FJD
+    :FKP: 
+      :symbol: FKP
+    :GBP: 
+      :symbol: £
+    :GEL: 
+      :symbol: GEL
+    :GHS: 
+      :symbol: GHS
+    :GIP: 
+      :symbol: GIP
+    :GMD: 
+      :symbol: GMD
+    :GNF: 
+      :symbol: GNF
+    :GTQ: 
+      :symbol: GTQ
+    :GYD: 
+      :symbol: GYD
+    :HKD: 
+      :symbol: HK$
+    :HNL: 
+      :symbol: HNL
+    :HRK: 
+      :symbol: HRK
+    :HTG: 
+      :symbol: HTG
+    :HUF: 
+      :symbol: HUF
+    :IDR: 
+      :symbol: IDR
+    :ILS: 
+      :symbol: ₪
+    :INR: 
+      :symbol: ₹
+    :IQD: 
+      :symbol: IQD
+    :IRR: 
+      :symbol: IRR
+    :ISK: 
+      :symbol: kr
+    :JMD: 
+      :symbol: JMD
+    :JOD: 
+      :symbol: JOD
+    :JPY: 
+      :symbol: JP¥
+    :KES: 
+      :symbol: KES
+    :KGS: 
+      :symbol: KGS
+    :KHR: 
+      :symbol: KHR
+    :KMF: 
+      :symbol: KMF
+    :KPW: 
+      :symbol: KPW
+    :KRW: 
+      :symbol: ₩
+    :KWD: 
+      :symbol: KWD
+    :KYD: 
+      :symbol: KYD
+    :KZT: 
+      :symbol: KZT
+    :LAK: 
+      :symbol: LAK
+    :LBP: 
+      :symbol: LBP
+    :LKR: 
+      :symbol: LKR
+    :LRD: 
+      :symbol: LRD
+    :LTL: 
+      :symbol: Lt
+    :LVL: 
+      :symbol: Ls
+    :LYD: 
+      :symbol: LYD
+    :MAD: 
+      :symbol: MAD
+    :MDL: 
+      :symbol: MDL
+    :MGA: 
+      :symbol: MGA
+    :MKD: 
+      :symbol: MKD
+    :MMK: 
+      :symbol: MMK
+    :MNT: 
+      :symbol: MNT
+    :MOP: 
+      :symbol: MOP
+    :MRO: 
+      :symbol: MRO
+    :MTL: 
+      :one: "Lira Maltija"
+    :MUR: 
+      :symbol: MUR
+    :MVR: 
+      :symbol: MVR
+    :MWK: 
+      :symbol: MWK
+    :MXN: 
+      :symbol: MX$
+    :MYR: 
+      :symbol: MYR
+    :MZN: 
+      :symbol: MZN
+    :NAD: 
+      :symbol: NAD
+    :NGN: 
+      :symbol: NGN
+    :NIO: 
+      :symbol: NIO
+    :NOK: 
+      :symbol: kr
+    :NPR: 
+      :symbol: Rs
+    :NZD: 
+      :symbol: NZ$
+    :OMR: 
+      :symbol: OMR
+    :PAB: 
+      :symbol: PAB
+    :PEN: 
+      :symbol: PEN
+    :PGK: 
+      :symbol: PGK
+    :PHP: 
+      :symbol: PHP
+    :PKR: 
+      :symbol: PKR
+    :PLN: 
+      :symbol: PLN
+    :PYG: 
+      :symbol: PYG
+    :QAR: 
+      :symbol: QAR
+    :RON: 
+      :symbol: RON
+    :RSD: 
+      :symbol: RSD
+    :RUB: 
+      :symbol: RUB
+    :RUR: 
+      :symbol: р.
+    :RWF: 
+      :symbol: RWF
+    :SAR: 
+      :symbol: SAR
+    :SBD: 
+      :symbol: SBD
+    :SCR: 
+      :symbol: SCR
+    :SDG: 
+      :symbol: SDG
+    :SEK: 
+      :symbol: SEK
+    :SGD: 
+      :symbol: SGD
+    :SHP: 
+      :symbol: SHP
+    :SLL: 
+      :symbol: SLL
+    :SOS: 
+      :symbol: SOS
+    :SRD: 
+      :symbol: SRD
+    :SSP: 
+      :symbol: SSP
+    :STD: 
+      :symbol: STD
+    :STN: 
+      :symbol: STN
+    :SYP: 
+      :symbol: SYP
+    :SZL: 
+      :symbol: SZL
+    :THB: 
+      :symbol: THB
+    :TJS: 
+      :symbol: TJS
+    :TMT: 
+      :symbol: TMT
+    :TND: 
+      :symbol: TND
+    :TOP: 
+      :symbol: TOP
+    :TRY: 
+      :symbol: TRY
+    :TTD: 
+      :symbol: TTD
+    :TWD: 
+      :symbol: NT$
+    :TZS: 
+      :symbol: TZS
+    :UAH: 
+      :symbol: UAH
+    :UGX: 
+      :symbol: UGX
+    :USD: 
+      :symbol: US$
+    :UYU: 
+      :symbol: UYU
+    :UZS: 
+      :symbol: UZS
+    :VEF: 
+      :symbol: VEF
+    :VND: 
+      :symbol: ₫
+    :VUV: 
+      :symbol: VUV
+    :WST: 
+      :symbol: WST
+    :XAF: 
+      :symbol: FCFA
+    :XCD: 
+      :symbol: EC$
+    :XOF: 
+      :symbol: CFA
+    :XPF: 
+      :symbol: CFPF
+    :XXX: 
+      :few: "Munita Mhix Magħrufa jew Mhix Valida"
+      :many: "Munita Mhix Magħrufa jew Mhix Valida"
+      :one: "Munita mhix magħrufa jew mhix valida"
+      :other: "Munita Mhix Magħrufa jew Mhix Valida"
+      :symbol: ¤
+    :YER: 
+      :symbol: YER
+    :ZAR: 
+      :symbol: ZAR
+    :ZMW: 
+      :symbol: ZMW

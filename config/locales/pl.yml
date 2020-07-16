@@ -1395,6 +1395,8 @@ pl:
     nav_bar:
       Moje_zamówienia: Moje Zamówienia
       Moje_konto: Moje Konto
+      log_in: Zaloguj się
+      sign_up: Zapisz się
     
 
     plp:

@@ -12,10 +12,8 @@ default: &default
 development:
   <<: *default
   database: db/development.sqlite3
-  host: polnymak.pl
-  port: 22
-  username: aofish
-  password: sixth99
+
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,10 +21,8 @@ development:
 test:
   <<: *default
   database: db/test.sqlite3
-  host: polnymak.pl
-  port: 22
-  username: aofish
-  password: sixth99
+
+
 
 production:
   <<: *default

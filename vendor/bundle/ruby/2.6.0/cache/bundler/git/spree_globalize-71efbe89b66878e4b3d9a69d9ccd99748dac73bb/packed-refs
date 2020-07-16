@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+9cd902dec9d4b14eb9a2bda43be8b8d8568c055e refs/heads/add_deface_dependency
+1b5036fa9f52da30c20b3fba5c9de1a8324affb9 refs/heads/master
+a20c9f848bdbced7ddb4b9e1eed988dd67eab324 refs/heads/namespace
+07e488c07b828291206648673073409d428927cb refs/heads/rails_6_spree_4
+96a089f08b879457eb20d84b70299ae3bf543295 refs/heads/ransack-translations
+21488f65b70e26e7365e3d7afe7ebba77a7a4eba refs/heads/translation-form-labels
+140bc84d4d64a4c691f0a47e47de92c226705f9a refs/heads/use-spreecommerce-org

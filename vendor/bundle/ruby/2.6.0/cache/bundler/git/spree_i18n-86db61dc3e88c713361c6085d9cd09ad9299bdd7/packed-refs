@@ -1,0 +1,22 @@
+# pack-refs with: peeled fully-peeled sorted 
+1f7a033c597b0ed7626f6d9d23ebc31d853c2403 refs/heads/0-11-x
+3b278507efe6b635b352e302a54a8877725cb0ee refs/heads/1-0-stable
+8e5fac33a2b560e97c58b31339e4c5c147155f06 refs/heads/1-2-stable
+752eb67204e9c5a4e22b62591a8fd55fe2285e43 refs/heads/1-3-stable
+3a3538cd3510a0e23153df894d501e682c6fc2cb refs/heads/2-0-stable
+f763e12f4e01f7d6df7341eddc89a24102c07a66 refs/heads/2-1-stable
+66b8165443417ba9d770377f5ae79d86490a7a51 refs/heads/2-2-stable
+ec1ff6d699c211cb5cc529d9d5f1422b2199e719 refs/heads/2-3-stable
+d044b9539c2b28a77923fe117500b7ba6c5df685 refs/heads/2-4-stable
+fb26046240aef6ec516abd4e2a363e65487adaea refs/heads/3-0-stable
+4b7e930bdb398919c7496540bd915490925ef739 refs/heads/3-1-stable
+6a0069a03986885eb498749faa760b79b1b78a9a refs/heads/added_deface_as_dependency
+6aefe9aa4e59455b0ff58df554d5ca9c1e3ab98d refs/heads/feature/bootstrap-4
+772b886369cb365920139dfef5cc74787c1736cc refs/heads/fix/headless-mode
+025eeb25d1ae210d6f6b71baa13950721e32d36c refs/heads/fix/spree-required-version-3-1
+bbe63eb57aff712814194a491cbc89b4d514bbc7 refs/heads/master
+1efa375fc0d2cfc64ece0a26e56fa58e8c6bf17d refs/heads/revert-791-patch-1
+046ca4fed1bdea6edadab8e8e323babe63557091 refs/heads/sdp-57
+911635a4cec25b5bcaf9d68e349fd721b1767a81 refs/heads/sdp_307
+3b5080e656a57ca2976e73b2d8f1c2ba20c8fb2b refs/heads/sdp_310
+6cebdc0d602d7462a7663f8e131458fada993e06 refs/heads/updating_extension_to_rails_6_spree_4

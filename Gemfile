@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
+  gem 'bootsnap', '>= 1.4.6', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -41,7 +41,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '~> 1.4'
+  gem 'sqlite3', '~> 1.4.2'
 end
 
 group :test do
@@ -63,5 +63,7 @@ gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
 
 group:production do
   # Use the PostgreSQL gem for Heroku production servers
-gem 'pg', '~> 1.2', '>= 1.2.3'
+# gem 'pg', '~> 1.2', '>= 1.2.3'
+  gem 'sqlite3', '~> 1.4.2'
+  gem 'listen', '~> 3.2'
 end

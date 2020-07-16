@@ -27,10 +27,10 @@ Spree.dependencies do |dependencies|
   # Uncomment to change the default Service handling adding Items to Cart
   # dependencies.cart_add_item_service = 'MyNewAwesomeService'
   
-    Spree::Frontend::Config[:locale] = :pl
+    Spree::Frontend::Config[:locale] = :en
     Spree::Backend::Config[:locale] = :en
 end
 
 
-Spree.user_class = "Spree::LegacyUser"
+ Spree.user_class = "Spree::LegacyUser"
 

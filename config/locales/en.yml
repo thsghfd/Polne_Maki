@@ -1,28 +1,17 @@
 en:
-  activemodel:
-    errors:
-      models:
-        spree/fulfilment_changer:
-          attributes:
-            desired_shipment:
-              can_not_transfer_within_same_shipment: can not be same as current shipment
-              not_enough_stock_at_desired_location: not enough stock in desired stock location
-            current_shipment:
-              has_already_been_shipped: has already been shipped
-              can_not_have_backordered_inventory_units: has backordered inventory units
   activerecord:
     attributes:
       spree/address:
         address1: Address
         address2: Address (contd.)
-        city: Miasto
+        city: City
         company: Company
         country: Country
         firstname: First Name
         lastname: Last Name
-        phone: Numer telefonu
+        phone: Phone
         state: State
-        zipcode: Kod Pocztowy
+        zipcode: Zip Code
       spree/calculator/tiered_flat_rate:
         preferred_base_amount: Base Amount
         preferred_tiers: Tiers
@@ -98,7 +87,7 @@ en:
         on_hand: On Hand
         shipping_category: Shipping Category
         tax_category: Tax Category
-        less_than: mniej niż
+        less_than: Less than
       spree/promotion:
         advertise: Advertise
         code: Code
@@ -163,7 +152,7 @@ en:
       spree/user:
         email: Email
         password: Password
-        password_confirmation: Potwierdzenie hasła
+        password_confirmation: Password Confirmation
       spree/variant:
         cost_currency: Cost Currency
         cost_price: Cost Price
@@ -241,7 +230,7 @@ en:
         one: Return Authorization Reason
         other: Return Authorization Reasons
       spree/role:
-        one: Roles
+        one: Role
         other: Roles
       spree/shipment:
         one: Shipment
@@ -384,7 +373,7 @@ en:
             attachment:
               not_allowed_content_type: has not allowed content type
   address_book:
-    save: Zapisać
+    save: Save
     successfully_created: New address has been successfully created
   devise:
     confirmations:
@@ -419,12 +408,11 @@ en:
     user_registrations:
       destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
       inactive_signed_up: You have signed up successfully. However, we could not sign you in because your account is %{reason}.
-      signed_up: Witamy! Rejestracja się powiodła.
+      signed_up: Welcome! You have signed up successfully.
       updated: You updated your account successfully.
     user_sessions:
       signed_in: Signed in successfully.
       signed_out: Signed out successfully.
-
   errors:
     messages:
       already_confirmed: was already confirmed
@@ -433,19 +421,16 @@ en:
       not_saved:
         one: ! '1 error prohibited this %{resource} from being saved:'
         other: ! '%{count} errors prohibited this %{resource} from being saved:'
-
   number:
     percentage:
       format:
         precision: 1
-
   pagination:
     first: "&laquo;"
     last: "&raquo;"
     previous: "&lsaquo;"
     next: "&rsaquo;"
     truncate: "&hellip;"
-
   spree:
     abbreviation: Abbreviation
     accept: Accept
@@ -453,6 +438,7 @@ en:
     acceptance_errors: Acceptance errors
     accepted: Accepted
     account: Account
+    account_info: Account info
     account_updated: Account updated
     action: Action
     actions:
@@ -474,7 +460,7 @@ en:
     add_action_of_type: Add action of type
     add_country: Add Country
     add_coupon_code: Add Coupon Code
-    add_new_address: Dodaj nowy adres
+    add_new_address: Add new address
     add_new_header: Add New Header
     add_new_style: Add New Style
     add_one: Add One
@@ -490,9 +476,9 @@ en:
     add_store_credit: Add Store Credit
     added_to_cart: Added to cart successfully!
     additional_item: Additional Item
-    address: Adres
-    address1: Adres
-    address2: Adres kontynuowany
+    address: Address
+    address1: Address
+    address2: Address (contd.)
     addresses: Addresses
     address_action_popup:
       delete_button: yes, delete
@@ -501,7 +487,7 @@ en:
     address_book:
       other_address: "Other address"
       add_new_shipping_address: "Add new address"
-      new_shipping_address: "NOWY ADRES WYSYŁKI"
+      new_shipping_address: "New Address"
       edit_shipping_address: "Edit Address"
       no_shipping_addresses_on_file: "No addresses on file"
       shipping_addresses: "Addresses"
@@ -568,12 +554,15 @@ en:
     agree_to_privacy_policy: Agree to Privacy Policy
     agree_to_terms_of_service: Agree to Terms of Service
     all: All
+    allow_currency_change:
+      short: Allow Currency Change
+      long: Allow users to change their currency via the currency picker.
     all_adjustments_closed: All adjustments successfully closed!
     all_adjustments_opened: All adjustments successfully opened!
     all_departments: All departments
     all_items_have_been_returned: All items have been returned
     all_rights_reserved: All rights reserved
-    already_have_account: Posiadasz już konto?
+    already_have_account: Already have an account?
     alt_text: Alternative Text
     alternative_phone: Alternative Phone
     amount: Amount
@@ -607,13 +596,16 @@ en:
     balance_due: Balance Due
     base_amount: Base Amount
     base_percent: Base Percent
+    basic_information: Basic Information
     bill_address: Bill Address
     billing: Billing
-    billing_address: ADRES ROZLICZENIOWY
+    billing_address: Billing Address
     both: Both
+    breadcrumbs: Breadcrumbs
     calculated_reimbursements: Calculated Reimbursements
     calculator: Calculator
     calculator_settings_warning: If you are changing the calculator type, you must save first before you can edit the calculator settings
+    call_us_now: 'Call us now: '
     cancel: cancel
     canceled: Canceled
     canceler: Canceler
@@ -627,22 +619,24 @@ en:
     cannot_set_shipping_method_without_address: Cannot set shipping method until customer details are provided.
     capture: Capture
     capture_events: Capture events
-    card_code: Card Code
+    card_code: Card Varification Code (CVC)
     card_number: Card Number
     card_type: Brand
     card_type_is: Card type is
     cart: Cart
     cart_page:
-      add_promo_code: DODAJ KOD PROMOCYJNY
-      checkout: sprawdzić
-      empty_info: 'Twój koszyk jest pusty.'
-      header: Wózek Sklepowy
-      product: Produkt
-      quantity: Ilość
-      title: Wózek sklepowy
+      add_promo_code: ADD PROMO CODE
+      change_quantity: Change quantity
+      checkout: checkout
+      empty_info: 'Your cart is empty.'
+      header: Your shopping cart
+      product: product
+      quantity: quantity
+      remove_from_cart: Remove from cart
+      title: Shopping Cart
     cart_subtotal:
-      one: 'Suma częściowa (1 item)'
-      other: 'Suma częściowa (%{count} items)'
+      one: 'Subtotal (1 item)'
+      other: 'Subtotal (%{count} items)'
     categories: Categories
     category: Category
     category_nav_bar:
@@ -653,18 +647,20 @@ en:
       summer_2019: SUMMER 2019
     channel: Channel
     charged: Charged
-    checkout: Sprawdzić
+    checkout: Checkout
     checkout_page:
-      back_to_cart: Powrót do koszyka
+      main_navigation: Main navigation
+      checkout_navigation: Checkout navigation
+      back_to_cart: back to the cart
       delivery_method: delivery method
-      header: Sprawdzić
-      product: Produkt
+      header: Checkout
+      product: Product
     choose_a_customer: Choose a customer
     choose_a_taxon_to_sort_products_for: "Choose a taxon to sort products for"
     choose_currency: Choose Currency
     choose_dashboard_locale: Choose Dashboard Locale
     choose_location: Choose location
-    city: Miasto
+    city: City
     clear_cache: Clear Cache
     clear_cache_ok: Cache was flushed
     clear_cache_warning: Clearing cache will temporarily reduce the performance of your store.
@@ -674,17 +670,19 @@ en:
     close_all_adjustments: Close All Adjustments
     code: Code
     company: Company
+    compare_at_price: Compare at price
     complete: complete
     configuration: Configuration
     configurations: Configurations
     confirm: Confirm
     confirm_delete: Confirm Deletion
-    confirm_password: Potwierdzenie Hasła
-    contact_us: Skontaktuj się z nami
-    Skontaktuj_się_z_nami: Skontaktuj się z nami
+    confirm_password: Password Confirmation
+    contact_email: Contact email
+    contact_phone: Contact phone
+    contact_us: Contact us
     continue: Continue
     continue_as_guest: Continue as a guest
-    continue_shopping: Kontynuować zakupy
+    continue_shopping: Continue shopping
     cost_currency: Cost Currency
     cost_price: Cost Price
     could_not_create_customer_return: Could not create customer return
@@ -726,24 +724,56 @@ en:
     credited: Credited
     credits: Credits
     currency: Currency
+    currencies: Currencies
     currency_settings: Currency Settings
     current: Current
-    current_promotion_usage: ! 'Current Usage: %{count}'
+    current_promotion_usage: ! 'current usage: %{count}'
     customer: Customer
     customer_details: Customer Details
     customer_details_updated: Customer Details Updated
     customer_return: Customer Return
     customer_returns: Customer Returns
     customer_search: Customer Search
+    customer_support_email: Customer Support Email
+    new_order_notifications_email: New Order Notifications Email
     cut: Cut
     cvv: CVV
     cvv_response: CVV Response
     date: Date
     date_completed: Date Completed
     date_picker:
+      am: 'AM'
       first_day: 0
       format: ! '%Y/%m/%d'
-      js_format: yy/mm/dd
+      hourAriaLabel: 'Hour'
+      js_format: Y/m/d
+      js_date_time: Y/m/d - H:i
+      minuteAriaLabel: 'Minute'
+      pm: 'PM'
+      rangeSeparator: ' to '
+      scrollTitle: 'Scroll to increment'
+      toggleTitle: 'Click to toggle'
+      weekAbbreviation: 'Wk'
+      yearAriaLabel: 'Year'
+      sun: 'Sun'
+      mon: 'Mon'
+      tue: 'Tue'
+      wed: 'Wed'
+      thu: 'Thu'
+      fri: 'Fri'
+      sat: 'Sat'
+      lh_jan: 'January'
+      lh_feb: 'February'
+      lh_mar: 'March'
+      lh_apr: 'April'
+      lh_may: 'May'
+      lh_jun: 'June'
+      lh_jul: 'July'
+      lh_aug: 'August'
+      lh_sep: 'September'
+      lh_oct: 'October'
+      lh_nov: 'November'
+      lh_dec: 'December'
     date_range: Date Range
     default: Default
     default_country_cannot_be_deleted: Default country cannot be deleted
@@ -755,7 +785,7 @@ en:
     deleted: Deleted
     delete_from_taxon: Delete From Taxon
     discontinued_variants_present: Some line items in this order have products that are no longer available.
-    delivery: Dostawa
+    delivery: Delivery
     delivery_information: Delivery Information
     depth: Depth
     details: Details
@@ -788,12 +818,14 @@ en:
         no_user_or_email_specified: You need to login or provide your email before applying this coupon code.
         no_user_specified: You need to login before applying this coupon code.
         not_first_order: This coupon code can only be applied to your first order.
-    email: E-mail
+    email: Email
     empty: Empty
     empty_cart: Empty Cart
     enable_mail_delivery: Enable Mail Delivery
     end: End
-    ending_in: Kończąc w
+    ends_at: Ends at
+    ending_at: Ending at
+    ending_in: Ending in
     error: error
     errors:
       messages:
@@ -832,6 +864,7 @@ en:
     extension: Extension
     extensions_directory: Extensions Directory
     existing_shipments: Existing shipments
+    facebook: Facebook
     failed_payment_attempts: Failed Payment Attempts
     filename: Filename
     fill_in_customer_info: Please fill in customer info
@@ -841,13 +874,15 @@ en:
     find_a_taxon: Find a Taxon
     finalized: Finalized
     first_item: First Item
-    first_name: Imię
+    first_name: First Name
+    firstname: First Name
     first_name_begins_with: First Name Begins With
     flat_percent: Flat Percent
     flat_rate_per_order: Flat Rate
     flexible_rate: Flexible Rate
     follow_us: Follow us
-    forgot_password: Zapomniałeś hasła?
+    footer_info: Footer info
+    forgot_password: Forgot password?
     free_shipping: Free Shipping
     free_shipping_amount: "-"
     front_end: Front End
@@ -856,6 +891,7 @@ en:
     general: General
     general_settings: General Settings
     generate_code: Generate coupon code
+    get_back_to_the: Get back to the
     go_to_category: Go to category
     go_to_facebook: Go to facebook
     go_to_homepage: Go to Home Page
@@ -864,27 +900,15 @@ en:
     guest_checkout: Guest Checkout
     guest_user_account: Checkout as a Guest
     has_no_shipped_units: has no shipped units
+    header_banner: Header banner
     height: Height
     hide_from_subcategories_nav: Hide from subcategories navigation
-    home: Strona główna
+    home: Home
+    home_page: homepage
     homepage:
-      kupuj_teraz: Kupuj Teraz
-      wielkie_otwarcie: Wielkie Otwarcie
-      twarz: Twarz
-      wlosy: WŁOSY
-      cialo: CIAŁO
-      paznokcie: PAZNOKCIE
-      makijaz: MAKIJAŻ
-      zapachy: ZAPACHY
-      dzieci: DZIECI
-      dom: DOM
-      kosmetyki_naturalnep: Kosmetyki Naturalnep
-      kochać_ziemię: Kochać Ziemię
-      najlepiej_sprzedające_się_przedmioty_naturalne: Najlepiej Sprzedające Się Przedmioty Naturalne
-      kliknij_tutaj: Kliknij Tutaj
       bestsellers: BESTSELLERS
       fashion_trends: FASHION TRENDS
-      fashion_trends_note: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      fashion_trends_note: Want to rock this season’s hottest trend in style? These are the top fashion from Summer 2020 Fashion Weeks that are coming our way this season.
       men: MEN
       new: NEW
       new_collection: NEW COLLECTION
@@ -893,7 +917,7 @@ en:
       shop_now: SHOP NOW
       sportswear: SPORTSWEAR
       streetstyle: STREETSTYLE
-      summer_2019: Summer 2019
+      summer_2020: Summer 2020
       summer_collection:  Summer Collection
       summer_sale: SUMMER SALE
       trending: TRENDING
@@ -920,20 +944,22 @@ en:
     in_stock: In Stock
     inactive: Inactive
     incl: incl.
-    included_in_price: WLICZONY W CENĘ
+    included_in_price: Included in Price
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete: Incomplete
     info_product_has_multiple_skus: "This product has %{count} variants:"
     info_number_of_skus_not_shown:
       one: "and one other"
       other: "and %{count} others"
-    instructions_to_reset_password: Wpisz swój adres e-mail w poniższym formularzu
+    instagram: Instagram
+    instructions_to_reset_password: Please enter your email on the form below
     insufficient_stock: Insufficient stock available, only %{on_hand} remaining
     insufficient_stock_item_quantity: Insufficient stock quantity available
     insufficient_stock_lines_present: Some line items in this order have insufficient quantity.
     intercept_email_address: Intercept Email Address
     intercept_email_instructions: Override email recipient and replace with this address.
     internal_name: Internal Name
+    internationalization: Internationalization
     invalid_credit_card: Invalid credit card.
     invalid_exchange_variant: Invalid exchange variant.
     invalid_payment_provider: Invalid payment provider.
@@ -960,10 +986,12 @@ en:
     items_to_be_reimbursed: Items to be reimbursed
     items_reimbursed: Items reimbursed
     join_slack: Join Slack
-    last_name: Nazwisko
+    last_name: Last Name
+    lastname: Last Name
     last_name_begins_with: Last Name Begins With
     learn_more: Learn More
     lifetime_stats: Lifetime Stats
+    limit_usage_to: Limit usage to
     line_item_adjustments: "Line item adjustments"
     list: List
     loading: Loading
@@ -972,11 +1000,11 @@ en:
     location: Location
     lock: Lock
     log_entries: "Log Entries"
-    log_in: Zaloguj sie
-    log_in_to_continue: Zaloguj się, aby kontynuować
+    log_in: Log in
+    log_in_to_continue: Log in to continue
     logs: "Logs"
     logged_in_as: Logged in as
-    logged_in_succesfully: zalogowano pomyślnie
+    logged_in_succesfully: Logged in successfully
     logged_out: You have been logged out.
     login: Login
     login_as_existing: Login as Existing Customer
@@ -991,6 +1019,7 @@ en:
     manage_promotion_categories: Manage Promotion Categories
     manual_intervention_required: Manual intervention required
     manage_variants: Manage Variants
+    master: Master
     master_price: Master Price
     master_sku: Master SKU
     match_choices:
@@ -1009,28 +1038,29 @@ en:
     month: Month
     more: More
     move_stock_between_locations: Move Stock Between Locations
-    my_account: Moje konto
-    my_orders: Moje zamówienia
+    my_account: My Account
+    my_orders: My Orders
     name: Name
     name_on_card: Name on card
     name_or_sku: Name or SKU (enter at least first 3 characters of product name)
     nav_bar:
-      moje_zamówienia: Moje Zamówienia
+      admin_panel: Admin Panel
+      change_country: Change country
       close_menu: Close menu
       go_to_previous_menu: Go to previous menu
-      log_in: Zaloguj się
-      log_out: WYLOGUJ
-      my_account: MOJE KONTO
-      my_orders: Moje Zamówienia
+      log_in: LOG IN
+      log_out: LOG OUT
+      my_account: MY ACCOUNT
+      my_orders: MY ORDERS
       show_menu: Show menu
-      show_search: Szukaj
+      show_search: Show search
       show_user_menu: Show user menu
-      sign_up: Zapisz się
-      contact_us: Skontaktuj się z nami
-      search: Szukaj
+      sign_up: SIGN UP
+      desktop: Desktop navigation
+      mobile: Mobile navigation
     new: New
     new_adjustment: New Adjustment
-    new_customer: STWÓRZ NOWE KONTO
+    new_customer: Create new account
     new_customer_return: New Customer Return
     new_country: New Country
     new_image: New Image
@@ -1071,6 +1101,7 @@ en:
     no_actions_added: No actions added
     no_address_given: No address given
     no_available_date_set: No available date set
+    no_country: No country set
     no_payment_found: No payment found
     no_pending_payments: No pending payments
     no_product_available:
@@ -1094,6 +1125,7 @@ en:
     not_found: ! '%{resource} is not found'
     note: Note
     notice_messages:
+      prices_saved: Prices successfully saved
       product_cloned: Product has been cloned
       product_deleted: Product has been deleted
       product_not_cloned: "Product could not be cloned. Reason: %{error}"
@@ -1115,7 +1147,7 @@ en:
     options: Options
     or: or
     or_over_price: ! '%{price} or over'
-    order: ZAMÓWIENIE
+    order: Order
     order_adjustments: Order adjustments
     order_already_updated: The order has already been updated.
     order_approved: Order approved
@@ -1125,40 +1157,45 @@ en:
     order_information: Order Information
     order_line_items: Order Line Items
     order_mailer:
-      subtotal: ! 'Suma częściowa:'
-      total: ! 'Suma zamówienia:'
+      subtotal: ! 'Subtotal:'
+      total: ! 'Order Total:'
       cancel_email:
-        dear_customer: Drogi Kliencie,
+        dear_customer: Dear %{name},
         instructions: Your order has been CANCELED.  Please retain this cancellation information for your records.
         order_summary_canceled: Order %{number} Summary [CANCELED]
         subject: Cancellation of Order
       confirm_email:
-        dear_customer: Drogi Kliencie,
-        instructions: Przejrzyj i zachowaj następujące informacje o zamówieniu dla swojej dokumentacji.
-        order_summary: Zamówienie %{number} Podsumowanie
-        subject: Potwierdzenie Zamówienia
-        thanks: Dziękuję za Twój biznes.
+        dear_customer: Dear %{name},
+        instructions: Please review and retain the following order information for your records.
+        order_summary: Order %{number} Summary
+        subject: Order Confirmation
+        thanks: Thank you for your business.
+      store_owner_notification_email:
+        heading: New Order Received
+        instructions: You have received a new order.
+        order_summary: Order %{number} Summary
+        subject: '%{store_name} received a new order'
     order_not_found: We couldn't find your order. Please try that action again.
     order_number: Order %{number}
     order_processed_successfully: Your order has been processed successfully
     order_resumed: Order resumed
     order_state:
-      address: adres
+      address: address
       awaiting_return: awaiting return
-      canceled: anulowany
-      cart: wózek
+      canceled: canceled
+      cart: cart
       considered_risky: considered risky
-      complete: kompletny
-      confirm: potwierdzać
-      delivery: Dostawa
-      payment: Zapłata
+      complete: complete
+      confirm: confirm
+      delivery: delivery
+      payment: payment
       resumed: resumed
       returned: returned
-    order_success: Zamówienie zostało złożone
-    order_success_explain: Informacje o zamówieniu zostaną wysłane na Twój adres e-mail
+    order_success: Order placed successfully
+    order_success_explain: Your order information will be sent to your email
     order_summary: Order Summary
     order_sure_want_to: Are you sure you want to %{event} this order?
-    order_total: Suma Zamówienia
+    order_total: Order Total
     order_updated: Order Updated
     orders: Orders
     out_of_stock: Out of Stock
@@ -1166,15 +1203,16 @@ en:
     backordered_confirm_info: Selected item is backordered so expect delays. Are you sure you want to order it?
     overview: Overview
     package_from: package from
+    page_not_found: Sorry! Page you are looking can’t be found.
     pagination:
       next_page: next page &raquo;
       previous_page: ! '&laquo; previous page'
       truncate: ! '&hellip;'
-    password: Hasło
+    password: Password
     paste: Paste
     path: Path
     pay: pay
-    payment: ZAPŁATA
+    payment: Payment
     payment_could_not_be_created: Payment could not be created.
     payment_identifier: Payment Identifier
     payment_information: Payment Information
@@ -1187,7 +1225,7 @@ en:
     payment_state: Payment State
     payment_states:
       balance_due: balance due
-      checkout: Sprawdzić
+      checkout: checkout
       completed: completed
       credit_owed: credit owed
       failed: failed
@@ -1199,7 +1237,7 @@ en:
     payment_updated: Payment Updated
     payments: Payments
     pdp:
-      checkout: Sprawdzić
+      checkout: Checkout
       description: Description
       details: Details
       products_included_in_promotion: Products included in the promotion
@@ -1221,23 +1259,22 @@ en:
       collection: COLLECTION
       color: COLOR
       done: DONE
-      default: Domyślnie
+      default: DEFAULT
       filter_by: FILTER BY
-      home: Home
-      newest_first: Nowości
-      no_results: Brak wyników
-      no_results_found: Nie znaleziono wyników
-      not_found_filters1: Nie możemy znaleźć dopasowania dla tych filtrów.
-      not_found_filters2: Spróbuj innego wyboru.
-      not_found_text1: Nie mogliśmy znaleźć produktów dla '%{keywords}'.
-      not_found_text2: Spróbuj ponownie wyszukać.
-      price: Cena
-      price_high_to_low: CENA (WYSOKA - NISKA)
-      price_low_to_high: CENA (NISKA - WYSOKA)
+      newest_first: NEWEST FIRST
+      no_results: No results
+      no_results_found: No results found
+      not_found_filters1: We couldn’t find a match for these filters.
+      not_found_filters2: Please try another choose.
+      not_found_text1: We couldn’t find products for '%{keywords}'.
+      not_found_text2: Please try another search.
+      price: price
+      price_high_to_low: PRICE (HIGH - LOW)
+      price_low_to_high: PRICE (LOW - HIGH)
       result: RESULT
-      results_for: WYNIKI DLA
+      results_for: RESULTS FOR
       size: SIZE
-      sort_by: Sortuj według
+      sort_by: SORT BY
       top_sellers: TOP SELLERS
       type: TYPE
     populate_get_error: Something went wrong. Please try adding the item again.
@@ -1248,13 +1285,16 @@ en:
     preferred_reimbursement_type: Preferred Reimbursement Type
     presentation: Presentation
     preview_product: Preview Product
+    preview_taxon: Preview Taxon
     previous: Previous
     previous_state_missing: "n/a"
-    price: Cena
+    previously_used_card: Previously Used Cards
+    price: Price
+    prices: Prices
     price_range: Price Range
     price_sack: Price Sack
     process: Process
-    product: Produkt
+    product: Product
     product_details: Product Details
     product_has_no_description: This product has no description
     product_not_available_in_this_currency: This product is not available in the selected currency.
@@ -1334,7 +1374,7 @@ en:
     provider_settings_warning: If you are changing the provider type, you must save first before you can edit the provider settings
     purchased_quantity: Purchased Quantity
     qty: Qty
-    quantity: ILOŚĆ
+    quantity: Quantity
     quantity_returned: Quantity Returned
     quantity_shipped: Quantity Shipped
     quick_search: Quick search..
@@ -1364,7 +1404,7 @@ en:
     reimbursements: Reimbursements
     reject: Reject
     rejected: Rejected
-    remember_me: Zapamiętaj mnie
+    remember_me: Remember me
     remove: Remove
     rename: Rename
     report: Report
@@ -1373,7 +1413,7 @@ en:
     required_fields: required fields
     resellable: Resellable
     resend: Resend
-    reset_password: Zresetować moje hasło
+    reset_password: Reset my password
     response_code: Response Code
     resume: resume
     resumed: Resumed
@@ -1397,14 +1437,14 @@ en:
     reimbursement_mailer:
       reimbursement_email:
         days_to_send: ! 'You have %{days} days to send back any items awaiting exchange.'
-        dear_customer: Drogi Kliencie,
-        exchange_summary: Podsumowanie wymiany
+        dear_customer: Dear %{name},
+        exchange_summary: Exchange Summary
         for: for
         instructions: Your reimbursement has been processed.
         refund_summary: Refund Summary
         subject: Reimbursement Notification
         total_refunded: ! 'Total refunded: %{total}'
-        thanks: Dziękuję za Twój biznes.
+        thanks: Thank you for your business.
     return_number: Return Number
     return_quantity: Return Quantity
     returned: Returned
@@ -1428,18 +1468,21 @@ en:
     say_no: 'No'
     say_yes: 'Yes'
     scope: Scope
-    search: Szukaj
+    search: Search
     search_results: Search results for '%{keywords}'
     searching: Searching
     secure_connection_type: Secure Connection Type
     security_settings: Security Settings
     select: Select
     select_from_prototype: Select From Prototype
+    select_a_date: Select a date
+    select_a_date_range: Select a date range
     select_a_return_authorization_reason: Select a reason for the return authorization
     select_a_stock_location: Select a stock location
     select_a_store_credit_reason: Select a reason for the store credit
     select_stock: Select stock
     selected_quantity_not_available: ! 'selected of %{item} is not available.'
+    seo: SEO
     send_copy_of_all_mails_to: Send Copy of All Mails To
     send_mails_as: Send Mails As
     seo_title: SEO title
@@ -1447,6 +1490,7 @@ en:
     server_error: The server returned an error
     settings: Settings
     ship: Ship
+    ship_to: "Shipping to:"
     ship_address: Ship Address
     ship_total: Ship Total
     shipment: Shipment
@@ -1454,12 +1498,12 @@ en:
     shipment_details: "From %{stock_location} via %{shipping_method}"
     shipment_mailer:
       shipped_email:
-        dear_customer: Drogi Kliencie,
-        instructions: Twoje zamówienie %{number} zostało wysłane
-        shipment_summary: Podsumowanie przesyłki dla zamówienia
-        shipping_method: "Sposób wysyłki: %{shipping_method}"
-        subject: Powiadomienie o wysyłce
-        thanks: Dziękuję za Twój biznes.
+        dear_customer: Dear %{name},
+        instructions: Your order %{number} has been shipped
+        shipment_summary: Shipment Summary for order
+        shipping_method: "Shipping method: %{shipping_method}"
+        subject: Shipment Notification
+        thanks: Thank you for your business.
         track_information: ! 'Tracking Information: %{tracking}'
         track_link: "Tracking Link: %{url}"
     shipment_state: Shipment State
@@ -1474,8 +1518,8 @@ en:
     shipment_transfer_error: 'There was an error transferring variants'
     shipments: Shipments
     shipped: Shipped
-    shipping: Wysyłka
-    shipping_address: ADRES WYSYŁKI
+    shipping: Shipping
+    shipping_address: Shipping Address
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
     shipping_flat_rate_per_item: Flat rate per package item
@@ -1491,25 +1535,31 @@ en:
         excluding_tax: "%{price} (+ %{tax_amount} %{tax_rate_name})"
     shipping_total: Shipping total
     shop_by_taxonomy: Shop by %{taxonomy}
-    shopping_cart: wózek sklepowy
+    shopping_cart: Shopping Cart
     show: Show
     show_active: Show Active
+    show_currency_selector:
+      short: Show Currency Selector
+      long_html: Display the currency picker in the main nav bar. This will only display if there are multiple supported currencies, and <strong>Allow currency change</strong> option is enabled.
     show_deleted: Show Deleted
     show_discontinued: Show Discontinued
     show_only_complete_orders: Only show complete orders
     show_only_considered_risky: Only show risky orders
+    show_property: Show Property
     show_rate_in_label: Show rate in label
-    sign_up: Zapisz się
+    sign_up: Sign Up
     sku: SKU
     skus: SKUs
     slug: Slug
     source: Source
+    social: Social
     special_instructions: Special Instructions
     split: Split
     spree_gateway_error_flash_for_checkout: There was a problem with your payment information. Please check your information and try again.
     ssl:
       change_protocol: "Please switch to using HTTP (rather than HTTPS) and retry this request."
     start: Start
+    starting_from: Starts at
     state: State
     state_based: State Based
     states: States
@@ -1522,12 +1572,12 @@ en:
       backordered: Back ordered
       cart: Cart
       canceled: Canceled
-      checkout: Sprawdzić
+      checkout: Checkout
       confirm: Confirm
       complete: Complete
       completed: Completed
       closed: Closed
-      delivery: Dostawa
+      delivery: Delivery
       errored: Errored
       failed: Failed
       given_to_customer: Given to customer
@@ -1543,6 +1593,7 @@ en:
       reimbursed: Reimbursed
       resumed: Resumed
       returned: Returned
+      shipment: Shipment
       shipped: Shipped
       void: Void
     states_required: States Required
@@ -1570,7 +1621,7 @@ en:
       unable_to_delete: Unable to delete store.
     store_set_default_button: Set as default
     stores: Stores
-    store_credit_name: Kredyt sklepowy
+    store_credit_name: Store Credit
     store_credit:
       credit: "Credit"
       authorized: "Authorized"
@@ -1607,7 +1658,7 @@ en:
     store_set_as_default: Store %{store} is now a default store
     street_address: Street Address
     street_address_2: Street Address (cont'd)
-    subtotal: Suma częściowa
+    subtotal: Subtotal
     subtract: Subtract
     success: Success
     successfully_created: ! '%{resource} has been successfully created!'
@@ -1615,7 +1666,9 @@ en:
     successfully_removed: ! '%{resource} has been successfully removed!'
     successfully_updated: ! '%{resource} has been successfully updated!'
     summary: Summary
-    tax: Podatek
+    supported_currencies: Supported Currencies
+    supported_currencies_long: A comma separated list of supported currencies
+    tax: Tax
     tax_included: "Tax (incl.)"
     tax_categories: Tax Categories
     tax_category: Tax Category
@@ -1658,7 +1711,7 @@ en:
     tiered_percent: Tiered Percent
     time: Time
     to_add_variants_you_must_first_define: To add variants, you must first define
-    total: Całkowity
+    total: Total
     total_per_item: Total per item
     total_pre_tax_refund: Total Pre-Tax Refund
     total_price: Total price
@@ -1675,6 +1728,7 @@ en:
     tree: Tree
     type: Type
     type_to_search: Type to search
+    twitter: Twitter
     unable_to_connect_to_gateway: Unable to connect to gateway.
     unable_to_create_reimbursements: Unable to create reimbursements because there are items pending manual intervention.
     under_price: Under %{price}
@@ -1707,6 +1761,7 @@ en:
     value: Value
     variant: Variant
     variant_placeholder: Choose a variant
+    variant_prices_search_placeholder: Search for SKU or variant name...
     variants: Variants
     version: Version
     void: Void
@@ -1715,8 +1770,8 @@ en:
     what_is_this: What's This?
     width: Width
     year: Year
-    you_have_no_orders_yet: Nie masz jeszcze zamówień
-    your_cart_is_empty: Twój koszyk jest pusty
+    you_have_no_orders_yet: You have no orders yet
+    your_cart_is_empty: Your cart is empty
     your_order_is_empty_add_product: Your order is empty, please search for and add a product above
     zip: Zip
     zipcode: Zip Code

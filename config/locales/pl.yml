@@ -5,6 +5,7 @@ pl:
         address1: Adres
         address2: Adres (cd.)
         city: Miasto
+        company: firma
         country: Państwo
         firstname: Imię
         lastname: Nazwisko
@@ -72,10 +73,12 @@ pl:
         zipcode: Kod pocztowy do wysyłki
       spree/payment:
         amount: Wartość
+        number: numer
       spree/payment_method:
         name: Nazwa
       spree/product:
         available_on: Dostępne od
+        discontinue_on: 
         cost_currency: Waluta kosztu
         cost_price: Cena kosztu
         description: Opis
@@ -84,18 +87,22 @@ pl:
         on_hand: W magazynie
         shipping_category: Kategoria wysyłki
         tax_category: Kategoria podatku
+        less_than:
       spree/promotion:
         advertise: Zareklamuj
         code: Kod
         description: Opis
         event_name: Nazwa zdarzenia
         expires_at: Data wygaśnięcia
+        generate_code:
         name: Nazwa
         path: "Ścieżka"
         starts_at: Data rozpoczęcia
         usage_limit: Limit wykorzystania
+        promotion_category:
       spree/promotion_category:
         name: Nazwa
+        code:
       spree/property:
         name: Nazwa
         presentation: Prezentacja
@@ -105,6 +112,8 @@ pl:
         amount: Ilość
       spree/role:
         name: Nazwa
+      spree/shipment:
+        number: 
       spree/state:
         abbr: Skrót
         name: Nazwa
@@ -123,6 +132,10 @@ pl:
         name: Nazwa
         seo_title: Tytuł SEO
         url: URL
+      spree/store_credit:
+        amount_used: 
+      spree/store_credit_category:
+        name: Nazwa
       spree/tax_category:
         description: Opis
         name: Nazwa
@@ -152,52 +165,6 @@ pl:
       spree/zone:
         description: Opis
         name: Nazwa
-    errors:
-      models:
-        spree/calculator/tiered_flat_rate:
-          attributes:
-            base:
-              keys_should_be_positive_number:
-            preferred_tiers:
-              should_be_hash:
-        spree/calculator/tiered_percent:
-          attributes:
-            base:
-              keys_should_be_positive_number:
-              values_should_be_percent:
-            preferred_tiers:
-              should_be_hash:
-        spree/classification:
-          attributes:
-            taxon_id:
-              already_linked:
-        spree/credit_card:
-          attributes:
-            base:
-              card_expired: Ważność karty wygasła
-              expiry_invalid: Nieprawidłowa data wygaśnięcia ważności karty
-        spree/line_item:
-          attributes:
-            currency:
-              must_match_order_currency:
-        spree/refund:
-          attributes:
-            amount:
-              greater_than_allowed:
-        spree/reimbursement:
-          attributes:
-            base:
-              return_items_order_id_does_not_match:
-        spree/return_item:
-          attributes:
-            inventory_unit:
-              other_completed_return_item_exists:
-            reimbursement:
-              cannot_be_associated_unless_accepted:
-        spree/store:
-          attributes:
-            base:
-              cannot_destroy_default_store:
     models:
       spree/address:
         one: Adres
@@ -230,9 +197,11 @@ pl:
         one: Płatność
         other: Płatności
       spree/payment_method:
-      spree/product:
         one: Produkt
         other: Produkty
+      spree/product:
+        one: 
+        other: 
       spree/promotion:
         one: Promocja
         other: Promocje
@@ -287,6 +256,12 @@ pl:
       spree/stock_transfer:
         one:  Transfer zapasu magazynowego
         other: Transfery zapasu magazynowego
+      spree/store_credit:
+        one: 
+        other: 
+      spree/store_credit_category:
+        one: 
+        other: 
       spree/tax_category:
         one: Kategoria podatku
         other: Kategorie podatku
@@ -300,6 +275,8 @@ pl:
         one: Taksonomia
         other: Taksonomie
       spree/tracker:
+        one: 
+        other: 
       spree/user:
         one: Użytkownik
         other: Użytkownicy
@@ -309,6 +286,95 @@ pl:
       spree/zone:
         one: Strefa
         other: Strefy
+    errors:
+      models:
+        spree/calculator/tiered_flat_rate:
+          attributes:
+            base:
+              keys_should_be_positive_number:
+            preferred_tiers:
+              should_be_hash:
+        spree/calculator/tiered_percent:
+          attributes:
+            base:
+              keys_should_be_positive_number:
+              values_should_be_percent:
+            preferred_tiers:
+              should_be_hash:
+        spree/classification:
+          attributes:
+            taxon_id:
+              already_linked:
+        spree/credit_card:
+          attributes:
+            base:
+              card_expired: Ważność karty wygasła
+              expiry_invalid: Nieprawidłowa data wygaśnięcia ważności karty
+        spree/line_item:
+          attributes:
+            currency:
+              must_match_order_currency:
+        spree/promotion:
+          attributes:
+            expires_at:
+              invalid_date_range: 
+        spree/product:
+          attributes:
+            discontinue_on:
+              invalid_date_range: 
+            base:
+              cannot_destroy_if_attached_to_line_items: 
+        spree/refund:
+          attributes:
+            amount:
+              greater_than_allowed:
+        spree/reimbursement:
+          attributes:
+            base:
+              return_items_order_id_does_not_match:
+        spree/return_item:
+          attributes:
+            inventory_unit:
+              other_completed_return_item_exists:
+            reimbursement:
+              cannot_be_associated_unless_accepted:
+        spree/shipping_method:
+          attributes:
+            base:
+              required_shipping_category: 
+        spree/store:
+          attributes:
+            base:
+              cannot_destroy_default_store:
+        spree/store_credit:
+          attributes:
+            amount_used:
+              cannot_be_greater_than_amount: 
+              greater_than_zero_restrict_delete: 
+            amount_authorized:
+              exceeds_total_credits: 
+        spree/store_credit_category:
+          attributes:
+            base:
+              cannot_destroy_if_used_in_store_credit: 
+        spree/variant:
+          attributes:
+            base:
+              cannot_destroy_if_attached_to_line_items: 
+              no_master_variant_found_to_infer_price: 
+              must_supply_price_for_variant_or_master: 
+        spree/image:
+          attributes:
+            attachment:
+              not_allowed_content_type: 
+              attachment_must_be_present: 
+        spree/taxon_image:
+          attributes:
+            attachment:
+              not_allowed_content_type: 
+  address_book:
+    save: 
+    successfully_created: 
   devise:
     confirmations:
       confirmed: Twoje konto zostało potwierdzone. Zostałeś zalogowany.
@@ -355,6 +421,16 @@ pl:
       not_saved:
         one: '1 błąd uniemożliwił zachowanie tego %{resource}:'
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
+  number:
+    percentage:
+      format:
+        precision: 1
+  pagination:
+    first: "&laquo;"
+    last: "&raquo;"
+    previous: "&lsaquo;"
+    next: "&rsaquo;"
+    truncate: "&hellip;"
   spree:
     abbreviation: Skrót
     accept: Akceptuj
@@ -362,6 +438,7 @@ pl:
     acceptance_status: Status akceptacji
     accepted: Zaakceptowano
     account: Konto
+    account_info: 
     account_updated: Konto uaktualnione
     action: Działanie
     actions:
@@ -379,9 +456,11 @@ pl:
     activate: Uaktywnij
     active: Aktywny
     add: Dodaj
+    add_new_credit_card: 
     add_action_of_type: Dodaj działanie typu
     add_country: Dodaj kraj
     add_coupon_code: Wprowadź kod promocyjny
+    add_new_address: 
     add_new_header: Dodaj nowy nagłówek
     add_new_style: Dodaj nowy styl
     add_one: Dodaj jeden
@@ -394,12 +473,39 @@ pl:
     add_stock_management: Dodaj zarządzanie magazynem
     add_to_cart: Dodaj do koszyka
     add_variant: Dodaj odmianę
+    add_store: 
+    add_store_credit: 
+    added_to_cart: 
     additional_item: Dodatkowy koszt jednostki
+    address: 
     address1: Adres
     address2: Adres (cd.)
-    adjustable:
+    addresses:
+    address_action_popup:
+      delete_button: yes, delete
+      delete_text: Do you really want <br /> to delete this address?
+      delete_title: Are you sure?
+    address_book:
+      other_address: "Other address"
+      add_new_shipping_address: "Add new address"
+      new_shipping_address: "New Address"
+      edit_shipping_address: "Edit Address"
+      no_shipping_addresses_on_file: "No addresses on file"
+      shipping_addresses: "Addresses"
+      successfully_created: "Address has been successfully created."
+      successfully_removed: "Address has been successfully removed."
+      successfully_saved: "Saved successfully"
+      unsuccessfully_saved: "There was an error while trying to save your address."
+      successfully_updated: "Updated successfully"
+      unsuccessfully_updated: "There was an update while trying to update your address."
+      save: "Save"
+    adjustable: 
     adjustment: Poprawka
     adjustment_amount: Ilość
+    adjustment_labels:
+      tax_rates:
+        including_tax: '%{name}%{amount} ()'
+        excluding_tax: '%{name}%{amount}'
     adjustment_successfully_closed: Zamknięto poprawkę!
     adjustment_successfully_opened: Otwarto poprawkę!
     adjustment_total: Poprawka razem
@@ -419,6 +525,18 @@ pl:
         taxonomies: Taksonomie
         taxons: Taksony
         users: Użytkownicy
+        return_authorizations: 
+        customer_returns: 
+      order:
+        events:
+          approve: 
+          cancel: 
+          resume: 
+          resend: 
+      orders:
+        cart: 
+      return_authorization:
+        product: 
       user:
         account: Konto
         addresses: Adresy
@@ -428,6 +546,10 @@ pl:
         order_num: Numer zamówienia
         orders: Zamówienia
         user_information: Informacje o użytkowniku
+        stores: Stores
+        store_credits: Store Credits
+        no_store_credit: User has no Store Credit available.
+        available_store_credit: User has %{amount} in Store Credit available.
     administration: Administracja
     advertise:
     agree_to_privacy_policy: Zgoda na politykę prywatności
@@ -489,9 +611,11 @@ pl:
     cancel: Rezygnuj
     canceled_at: Anulowano
     canceler: Osoba anulująca
+    cannot_empty_completed_order: 
     cannot_create_customer_returns: Nie możesz utworzyć zwrotów klienta.
     cannot_create_payment_without_payment_methods: Nie możesz utworzyć płatności dla zamówienia, jeżeli nie zdefiniowano żadnych metod płatności.
     cannot_create_returns: Nie można utworzyć zwrotu ponieważ w tym zamówieniu nie wysłano żadnego towaru.
+    cannot_return_more_than_bought_quantity: 
     cannot_perform_operation: Nie można wykonać żądanej operacji
     cannot_set_shipping_method_without_address: Nie można ustawić metody wysyłki bez uzupełnienie danych klienta.
     capture: Przechwyć
@@ -501,10 +625,37 @@ pl:
     card_type: Typ karty
     card_type_is: Typ karty to
     cart: Koszyk
+    cart_page:
+      add_promo_code: 
+      change_quantity: 
+      checkout: 
+      empty_info: 
+      header: 
+      product: 
+      quantity: 
+      remove_from_cart: 
+      title: 
     cart_subtotal:
+      one: 'Subtotal (1 item)'
+      other: 'Subtotal (%{count} items)'
     categories: Kategorie
     category: Kategoria
+    category_nav_bar:
+      get_up_to_30_percent_off: 
+      jackets_and_coats: 
+      new_collection: 
+      special_offers: 
+      summer_2019: 
+    channel: 
     charged: Pobrano
+    checkout: 
+    checkout_page:
+      main_navigation: 
+      checkout_navigation: 
+      back_to_cart: 
+      delivery_method: 
+      header: 
+      product: 
     check_for_spree_alerts: Sprawdź alarmy Spree
     checkout: Złożenie zamówienia
     choose_a_customer: Wybierz klienta
@@ -1367,13 +1518,24 @@ pl:
     zipcode: Kod pocztowy
     zone: Strefa
     zones: Strefy
+
     contact_us: Skontaktuj się z nami
     follow_us: Podążaj za nami
     log_in_to_continue: zaloguj się, aby kontynuować
     log_in: Zaloguj się
     sign_up: Zapisz się
   
-  
+  activemodel:
+    errors:
+      models:
+        spree/fulfilment_changer:
+          attributes:
+            desired_shipment:
+              can_not_transfer_within_same_shipment: can not be same as current shipment
+              not_enough_stock_at_desired_location: not enough stock in desired stock location
+            current_shipment:
+              has_already_been_shipped: has already been shipped
+              can_not_have_backordered_inventory_units: has backordered inventory units
   
   
     homepage:
@@ -1393,11 +1555,20 @@ pl:
       kliknij_tutaj: Kliknij Tutaj
     
     nav_bar:
-      Moje_zamówienia: Moje Zamówienia
-      Moje_konto: Moje Konto
-      log_in: Zaloguj się
-      sign_up: Zapisz się
-    
+      my_orders: MOJE ZAMÓWIENIA
+      my_account: MOJE KONTO
+      log_in: ZALOGUJ SIE
+      sign_up: ZAPISZ SIĘ
+      log_out: WYLOGUJ
+      admin_panel: Admin Panel
+      change_country: Change country
+      close_menu: Close menu
+      go_to_previous_menu: Go to previous menu
+      show_menu: Show menu
+      show_search: Show search
+      show_user_menu: Show user menu
+      desktop: Desktop navigation
+      mobile: Mobile navigation
 
     plp:
       sort_by: Sortuj według
@@ -1405,3 +1576,17 @@ pl:
       price_high_to_low: Cena od najwyższej
       price_low_to_high: Cena od najniższej
       default: Domyślnie
+      my_account: MOJE KONTO
+
+    STORE_CREDIT: KREDYT SKLEPOWY
+    Add_new_address: Dodaj nowy adres
+    NEW_SHIPPING_ADDRESS: NOWY ADRES DO WYSYŁKI
+    save: zapisać
+    LOG_IN_TO_CONTINUE: ZALOGUJ SIĘ, ABY KONTYNUOWAĆ
+    remember_me: Zapamiętaj mnie
+    log_in: Zaloguj się
+    forgot_password?: ZAPOMNIAŁEŚ HASŁA?
+    sign_up: Zapisz się
+    Logged_in_successfully: Zalogowano pomyślnie
+    Your_cart_is_empty.: Twój koszyk jest pusty.
+    YOUR_SHOPPING_CART: TWÓJ KOSZYK
